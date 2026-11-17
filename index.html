@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NEORVI Móveis - Mobiliário de alto padrão com design, resistência e conforto para áreas externas, piscinas, ambientes profissionais e residenciais.">
+    <link rel="stylesheet" href="styles.css">
+    <title>NEORVI MÓVEIS | Design, Conforto e Qualidade</title>
+</head>
+<body>
+
+    <!-- =================================================================
+         CABEÇALHO E MENU DE NAVEGAÇÃO 
+         ================================================================= -->
+    <header id="topo">
+        <div>
+            <!-- Logo Oficial NEORVI MÓVEIS criar a imagem -->
+            <a href="#inicio">
+                <strong>NEORVI MÓVEIS</strong>
+            </a>
+
+            <!-- Botão para Menu Responsivo (Mobile) -->
+            <button type="button" aria-label="Abrir Menu">☰</button>
+
+            <!-- Barra de Busca (Wireframes de Produtos, Detalhes e Carrinho) -->
+            <form action="#produtos" method="get" role="search">
+                <label for="input-busca">Buscar:</label>
+                <input type="search" id="input-busca" name="q" placeholder="Buscar móveis, cadeiras, chaises, poltronas...">
+                <button type="submit">Buscar</button>
+            </form>
+
+            <!-- Navegação Principal -->
+            <nav aria-label="Menu Principal">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#categorias">Categorias</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#detalhe-produto">Lançamento</a></li>
+                    <li><a href="#galeria">Ambientes</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#favoritos" aria-label="Meus Favoritos">♡ Favoritos (6)</a></li>
+                    <li><a href="#carrinho" aria-label="Meu Carrinho">🛒 Carrinho (2)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- =================================================================
+             1. PÁGINA INICIAL / HOME 
+             ================================================================= -->
+        <section id="inicio">
+            <!-- BANNER PRINCIPAL -->
+            <div id="banner-principal">
+                <article>
+                    <figure>
+                        <img src="banner-neorvi.jpg" alt="Banner promocional NEORVI Móveis">
+                    </figure>
+                    <h2>BANNER PRINCIPAL - NEORVI MÓVEIS</h2>
+                    <p>Móveis com design, resistência e conforto para transformar ambientes internos e áreas externas.</p>
+                    <a href="#produtos"><button type="button">Conheça a Coleção</button></a>
+                </article>
+            </div>
+
+            <!-- CATEGORIAS -->
+            <section id="categorias">
+                <h2>Categorias</h2>
+                <div>
+                    <article>
+                        <figure>
+                            <img src="cat-moveis.jpg" alt="Categoria Móveis">
+                        </figure>
+                        <h3><a href="#produtos">Móveis</a></h3>
+                    </article>
+
+                    <article>
+                        <figure>
+                            <img src="cat-cadeiras.jpg" alt="Categoria Cadeiras e Poltronas">
+                        </figure>
+                        <h3><a href="#produtos">Cadeiras</a></h3>
+                    </article>
+
+                    <article>
+                        <figure>
+                            <img src="cat-iluminacao.jpg" alt="Categoria Iluminação">
+                        </figure>
+                        <h3><a href="#produtos">Iluminação</a></h3>
+                    </article>
+
+                    <article>
+                        <figure>
+                            <img src="cat-acessorios.jpg" alt="Categoria Acessórios">
+                        </figure>
+                        <h3><a href="#produtos">Acessórios</a></h3>
+                    </article>
+                </div>
+            </section>
+
+            <!-- PRODUTOS EM DESTAQUE (6 Produtos como no wireframe) -->
+            <section id="destaques">
+                <h2>Produtos em destaque</h2>
+                <div>
+                    <article>
+                        <figure>
+                            <img src="poltrona-lido.jpg" alt="Produto 1 - Poltrona Lido">
+                        </figure>
+                        <h3>Poltrona Lido - Coleção Erba</h3>
+                        <p>R$ 2.899,90</p>
+                        <a href="#detalhe-produto">Ver detalhes</a>
+                    </article>
+
+                    <article>
+                        <figure>
+                            <img src="chaise-bari.jpg" alt="Produto 2 - Chaise Bari">
+                        </figure>
+                        <h3>Chaise Bari em Tela Sling</h3>
+                        <p>R$ 3.450,00</p>
+                        <a href="#detalhe-produto">Ver detalhes</a>
+                    </article>
+
+                    <article>
+                        <figure>
+                            <img src="mesa-jurere.jpg" alt="Produto 3 - Mesa de Centro Jurerê">
+                        </figure>
+                        <h3>Mesa de Centro Jurerê Cumaru</h3>
+                        <p>R$ 1.890,00</p>
+                        <a href="#detalhe-produto">Ver detalhes</a>
+                    </article>
+
+                    <article>
+                        <figure>
+                            <img src="poltrona-capri.jpg" alt="Produto 4 - Poltrona Capri">
+                        </figure>
+                        <h3>Poltrona Capri Corda Náutica</h3>
+                        <p>R$ 2.499,90</p>
+                        <a href="#detalhe-produto">Ver detalhes</a>
+                    </article>
+
+                    <article>
+                        <figure>
+                            <img src="balanco-turim.jpg" alt="Produto 5 - Poltrona de Balanço Turim">
+                        </figure>
+                        <h3>Poltrona de Balanço Turim</h3>
+                        <p>R$ 4.190,00</p>
+                        <a href="#detalhe-produto">Ver detalhes</a>
+                    </article>
+
+                    <article>
+                        <figure>
+                            <img src="mesa-lateral-bari.jpg" alt="Produto 6 - Mesa Lateral Bari">
+                        </figure>
+                        <h3>Mesa Lateral Bari Alumínio</h3>
+                        <p>R$ 980,00</p>
+                        <a href="#detalhe-produto">Ver detalhes</a>
+                    </article>
+                </div>
+            </section>
+        </section>
+
+        <hr>
+
+        <!-- =================================================================
+             2. TODOS OS PRODUTOS + FILTROS 
+             ================================================================= -->
+        <section id="produtos">
+            <h2>Todos os produtos</h2>
+
+            <div>
+                <!-- BARRA LATERAL DE FILTROS -->
+                <aside aria-label="Filtros de Produtos">
+                    <h3>Filtros</h3>
+                    <form action="#produtos" method="get">
+                        <fieldset>
+                            <legend>Categoria</legend>
+                            <div>
+                                <input type="checkbox" id="filtro-moveis" name="categoria" value="moveis">
+                                <label for="filtro-moveis">Móveis</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="filtro-cadeiras" name="categoria" value="cadeiras">
+                                <label for="filtro-cadeiras">Cadeiras</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="filtro-acessorios" name="categoria" value="acessorios">
+                                <label for="filtro-acessorios">Acessórios</label>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Acabamento (Linha Outdoor)</legend>
+                            <div>
+                                <input type="checkbox" id="mat-aluminio" name="material" value="aluminio">
+                                <label for="mat-aluminio">Alumínio</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="mat-cumaru" name="material" value="cumaru">
+                                <label for="mat-cumaru">Madeira Cumaru</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="mat-corda" name="material" value="corda">
+                                <label for="mat-corda">Corda Náutica / Tela Sling</label>
+                            </div>
+                        </fieldset>
+
+                        <!-- Faixa de preço -->
+                        <fieldset>
+                            <legend>Faixa de preço</legend>
+                            <label for="faixa-preco">R$ 0 — R$ 1000</label>
+                            <input type="range" id="faixa-preco" name="preco_max" min="0" max="5000" step="100" value="1000">
+                        </fieldset>
+
+                        <button type="submit">Aplicar Filtros</button>
+                    </form>
+                </aside>
+
+                <!-- LISTAGEM E ORDENAÇÃO -->
+                <div>
+                    <div>
+                        <label for="ordenar-catalogo">Ordenar por:</label>
+                        <select id="ordenar-catalogo" name="ordenar">
+                            <option value="relevancia">Relevância</option>
+                            <option value="preco">Preço</option>
+                            <option value="nome">Nome</option>
+                        </select>
+                    </div>
+
+                    <!-- Grade de 4 Produtos conforme o Wireframe -->
+                    <div>
+                        <article>
+                            <figure>
+                                <img src="prod-poltrona-buzios.jpg" alt="Produto 1 - Poltrona Búzios">
+                            </figure>
+                            <h3>Produto 1 - Poltrona Búzios Giratória</h3>
+                            <p>R$ 2.690,00</p>
+                            <a href="#detalhe-produto">Ver detalhes</a>
+                        </article>
+
+                        <article>
+                            <figure>
+                                <img src="prod-espreguicadeira-linea.jpg" alt="Produto 2 - Espreguiçadeira Linea">
+                            </figure>
+                            <h3>Produto 2 - Espreguiçadeira Linea</h3>
+                            <p>R$ 3.190,00</p>
+                            <a href="#detalhe-produto">Ver detalhes</a>
+                        </article>
+
+                        <article>
+                            <figure>
+                                <img src="prod-poltrona-luna.jpg" alt="Produto 3 - Poltrona Luna">
+                            </figure>
+                            <h3>Produto 3 - Poltrona Luna Erba</h3>
+                            <p>R$ 2.350,00</p>
+                            <a href="#detalhe-produto">Ver detalhes</a>
+                        </article>
+
+                        <article>
+                            <figure>
+                                <img src="prod-sofa-arrastao.jpg" alt="Produto 4 - Sofá Outdoor Arrastão">
+                            </figure>
+                            <h3>Produto 4 - Sofá Outdoor Arrastão</h3>
+                            <p>R$ 4.890,00</p>
+                            <a href="#detalhe-produto">Ver detalhes</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- =================================================================
+             3. DETALHE DO PRODUTO 
+             ================================================================= -->
+        <section id="detalhe-produto">
+            <!-- Breadcrumb -->
+            <nav aria-label="Trilha de navegação">
+                <p><a href="#inicio">HOME</a> / <a href="#categorias">CATEGORIA</a> / <span>PRODUTO</span></p>
+            </nav>
+
+            <div>
+                <!-- Galeria de Fotos do Produto -->
+                <div>
+                    <figure>
+                        <img src="poltrona-lido-principal.jpg" alt="Imagem principal do produto">
+                        <figcaption>Imagem principal - Poltrona Lido Neorvi</figcaption>
+                    </figure>
+                    <!-- 3 Miniaturas abaixo da imagem principal -->
+                    <div>
+                        <figure><img src="poltrona-lido-thumb1.jpg" alt="Miniatura 1 do produto"></figure>
+                        <figure><img src="poltrona-lido-thumb2.jpg" alt="Miniatura 2 do produto"></figure>
+                        <figure><img src="poltrona-lido-thumb3.jpg" alt="Miniatura 3 do produto"></figure>
+                    </div>
+                </div>
+
+                <!-- Informações de Compra -->
+                <div>
+                    <h2>Poltrona Lido - Linha Outdoor Neorvi</h2>
+                    <p><strong>R$ 899,90</strong></p>
+                    <p>Descrição e especificações técnicas: Mobiliário assinado com estrutura em alumínio, trama artesanal resistente ao sol e acabamento de alto padrão.</p>
+
+                    <form action="#carrinho" method="post">
+                        <div>
+                            <label for="qtd-produto">Quantidade:</label>
+                            <button type="button" aria-label="Diminuir quantidade">-</button>
+                            <input type="number" id="qtd-produto" name="quantidade" value="1" min="1" max="20">
+                            <button type="button" aria-label="Aumentar quantidade">+</button>
+                        </div>
+
+                        <div>
+                            <button type="submit">ADICIONAR AO CARRINHO</button>
+                        </div>
+
+                        <div>
+                            <a href="#favoritos">♡ Adicionar aos favoritos</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Descrição Completa e Características -->
+            <div>
+                <h3>Descrição completa e características</h3>
+                <details open>
+                    <summary><strong>Informações técnicas, dimensões, materiais e garantia.</strong></summary>
+                    <ul>
+                        <li><strong>Dimensões:</strong> Largura: 100 cm | Profundidade: 86 cm | Altura: 81 cm</li>
+                        <li><strong>Materiais:</strong> Estrutura em alumínio com pintura eletrostática, detalhes em madeira Cumaru, corda náutica e tecido impermeável com proteção UV.</li>
+                        <li><strong>Garantia:</strong> 12 meses de garantia NEORVI Móveis contra defeitos de fabricação.</li>
+                    </ul>
+                </details>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- =================================================================
+             4. GALERIA DE AMBIENTES (Seção de Galeria de Fotos)
+             ================================================================= -->
+        <section id="galeria">
+            <h2>Galeria de Ambientes NEORVI MÓVEIS</h2>
+            <p>Inspire-se com projetos corporativos, áreas de piscina, jardins e condomínios mobiliados pela NEORVI.</p>
+            <div>
+                <figure>
+                    <img src="ambiente-neorvi-1.jpg" alt="Lounge externo com móveis Neorvi">
+                    <figcaption>Lounge de Piscina e Área Externa</figcaption>
+                </figure>
+                <figure>
+                    <img src="ambiente-neorvi-2.jpg" alt="Varanda gourmet com mesas e cadeiras Neorvi">
+                    <figcaption>Varanda Gourmet Residencial</figcaption>
+                </figure>
+                <figure>
+                    <img src="ambiente-neorvi-3.jpg" alt="Ambiente corporativo e recepção Neorvi">
+                    <figcaption>Espaço Corporativo &amp; Convivência</figcaption>
+                </figure>
+                <figure>
+                    <img src="ambiente-neorvi-4.jpg" alt="Condomínio mobiliado com chaises e ombrelones">
+                    <figcaption>Deck de Condomínio e Resort</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- =================================================================
+             5. SOBRE A EMPRESA 
+             ================================================================= -->
+        <section id="sobre">
+            <!-- Banner Topo Sobre -->
+            <div>
+                <figure>
+                    <img src="logo-neorvi-icone.jpg" alt="Logotipo NEORVI Móveis">
+                </figure>
+                <h2>SOBRE A NEORVI MÓVEIS</h2>
+                <p>Transformando ambientes em espaços de produtividade, lazer e bem-estar.</p>
+            </div>
+
+            <!-- Nossa História (Texto à esquerda, Imagem à direita no Desktop) -->
+            <div>
+                <div>
+                    <h3>Nossa história</h3>
+                    <p>A <strong>NEORVI Móveis</strong> nasceu com o propósito de oferecer soluções modernas e funcionais para ambientes profissionais, áreas externas e residenciais.</p>
+                    <p>Inspirada na excelência artesanal das tramas, na resistência do alumínio e na nobreza da madeira natural, nossa mobília é pensada para durar no tempo, na forma e no conceito.</p>
+                    <p>Nosso compromisso é unir conforto, qualidade e design.</p>
+                </div>
+                <figure>
+                    <img src="ambiente-neorvi-sobre.jpg" alt="Imagem de ambiente decorado NEORVI Móveis">
+                    <figcaption>Imagem de ambiente NEORVI Móveis</figcaption>
+                </figure>
+            </div>
+
+            <!-- Nossos Diferenciais (3 Cards) -->
+            <div>
+                <h3>Nossos diferenciais</h3>
+                <div>
+                    <article>
+                        <span>🚚</span>
+                        <h4>Entrega segura</h4>
+                    </article>
+
+                    <article>
+                        <span>🛡️</span>
+                        <h4>Qualidade garantida</h4>
+                    </article>
+
+                    <article>
+                        <span>🎧</span>
+                        <h4>Atendimento especializado</h4>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Nossa Missão -->
+            <div>
+                <h3>NOSSA MISSÃO</h3>
+                <p>Proporcionar ambientes de trabalho, lazer e convivência mais confortáveis, organizados e produtivos.</p>
+            </div>
+
+            <!-- Call to Action -->
+            <div>
+                <a href="#produtos">
+                    <button type="button">
+                        <strong>CONHEÇA NOSSOS PRODUTOS</strong><br>
+                        <span>Explore nosso catálogo</span>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- =================================================================
+             6. MEUS FAVORITOS 
+             ================================================================= -->
+        <section id="favoritos">
+            <div>
+                <h2>Meus favoritos ♡</h2>
+                <p>Confira os produtos que você salvou.</p>
+            </div>
+
+            <div>
+                <p><strong>6 produtos salvos</strong></p>
+                <div>
+                    <label for="ordenar-favoritos">Ordenar por:</label>
+                    <select id="ordenar-favoritos" name="ordenar_fav">
+                        <option value="recentes">Mais recentes</option>
+                        <option value="menor-preco">Menor preço</option>
+                        <option value="maior-preco">Maior preço</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Grade de 6 Produtos Salvos -->
+            <div>
+                <!-- Item 1 -->
+                <article>
+                    <figure>
+                        <img src="fav-cadeira.jpg" alt="Cadeira Ergonômica">
+                    </figure>
+                    <div>
+                        <h3>Cadeira Ergonômica</h3>
+                        <span aria-label="Favoritado">♡</span>
+                    </div>
+                    <p>R$ 299,90</p>
+                    <button type="button">ADICIONAR AO CARRINHO</button>
+                    <p><a href="#remover-favorito-1">Remover dos favoritos</a></p>
+                </article>
+
+                <!-- Item 2 -->
+                <article>
+                    <figure>
+                        <img src="fav-mesa.jpg" alt="Mesa de Escritório / Varanda">
+                    </figure>
+                    <div>
+                        <h3>Mesa de Escritório</h3>
+                        <span aria-label="Favoritado">♡</span>
+                    </div>
+                    <p>R$ 299,90</p>
+                    <button type="button">ADICIONAR AO CARRINHO</button>
+                    <p><a href="#remover-favorito-2">Remover dos favoritos</a></p>
+                </article>
+
+                <!-- Item 3 -->
+                <article>
+                    <figure>
+                        <img src="fav-luminaria.jpg" alt="Luminária LED">
+                    </figure>
+                    <div>
+                        <h3>Luminária LED</h3>
+                        <span aria-label="Favoritado">♡</span>
+                    </div>
+                    <p>R$ 299,90</p>
+                    <button type="button">ADICIONAR AO CARRINHO</button>
+                    <p><a href="#remover-favorito-3">Remover dos favoritos</a></p>
+                </article>
+
+                <!-- Item 4 -->
+                <article>
+                    <figure>
+                        <img src="fav-apoio-pes.jpg" alt="Apoio para Pés">
+                    </figure>
+                    <div>
+                        <h3>Apoio para Pés</h3>
+                        <span aria-label="Favoritado">♡</span>
+                    </div>
+                    <p>R$ 299,90</p>
+                    <button type="button">ADICIONAR AO CARRINHO</button>
+                    <p><a href="#remover-favorito-4">Remover dos favoritos</a></p>
+                </article>
+
+                <!-- Item 5 -->
+                <article>
+                    <figure>
+                        <img src="fav-suporte.jpg" alt="Suporte para Monitor / Ombrelone">
+                    </figure>
+                    <div>
+                        <h3>Suporte para Monitor</h3>
+                        <span aria-label="Favoritado">♡</span>
+                    </div>
+                    <p>R$ 299,90</p>
+                    <button type="button">ADICIONAR AO CARRINHO</button>
+                    <p><a href="#remover-favorito-5">Remover dos favoritos</a></p>
+                </article>
+
+                <!-- Item 6 -->
+                <article>
+                    <figure>
+                        <img src="fav-kit.jpg" alt="Kit Teclado e Mouse / Acessórios">
+                    </figure>
+                    <div>
+                        <h3>Kit Teclado e Mouse</h3>
+                        <span aria-label="Favoritado">♡</span>
+                    </div>
+                    <p>R$ 299,90</p>
+                    <button type="button">ADICIONAR AO CARRINHO</button>
+                    <p><a href="#remover-favorito-6">Remover dos favoritos</a></p>
+                </article>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- =================================================================
+             7. MEU CARRINHO 
+             ================================================================= -->
+        <section id="carrinho">
+            <h2>Meu carrinho</h2>
+
+            <!-- Lista de Produtos no Carrinho -->
+            <div>
+                <article>
+                    <figure>
+                        <img src="cart-produto-1.jpg" alt="Produto 1">
+                    </figure>
+                    <div>
+                        <h3>Produto 1</h3>
+                        <p>R$ 299,90</p>
+                        <div>
+                            <span>Quantidade:</span>
+                            <button type="button" aria-label="Diminuir">-</button>
+                            <span>1</span>
+                            <button type="button" aria-label="Aumentar">+</button>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" aria-label="Excluir Produto 1">🗑️</button>
+                    </div>
+                </article>
+
+                <article>
+                    <figure>
+                        <img src="cart-produto-2.jpg" alt="Produto 2">
+                    </figure>
+                    <div>
+                        <h3>Produto 2</h3>
+                        <p>R$ 299,90</p>
+                        <div>
+                            <span>Quantidade:</span>
+                            <button type="button" aria-label="Diminuir">-</button>
+                            <span>1</span>
+                            <button type="button" aria-label="Aumentar">+</button>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" aria-label="Excluir Produto 2">🗑️</button>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Resumo do Pedido -->
+            <aside aria-label="Resumo do pedido">
+                <h3>Resumo do pedido</h3>
+                <div>
+                    <p><span>Subtotal</span> <strong>R$ 599,80</strong></p>
+                    <p><span>Frete</span> <strong>A calcular</strong></p>
+                </div>
+                <hr>
+                <div>
+                    <p><strong>Total</strong></p>
+                    <p><strong>R$ 599,80</strong></p>
+                </div>
+                <button type="button">FINALIZAR COMPRA</button>
+            </aside>
+        </section>
+
+        <hr>
+
+        <!-- =================================================================
+             8. ENTRE EM CONTATO (Com endereço atualizado + Mapa Embutido)
+             ================================================================= -->
+        <section id="contato">
+            <div>
+                <h2>Entre em contato</h2>
+                <p>Estamos prontos para ajudar você!</p>
+            </div>
+
+            <div>
+                <!-- Coluna Esquerda: Fale conosco / Canais de atendimento + Mapa -->
+                <div>
+                    <h3>Fale conosco</h3>
+                    <ul>
+                        <li>
+                            <span>✉️</span>
+                            <strong>E-mail</strong>
+                            <p><a href="mailto:contato@neorvimoveis.com.br">contato@neorvimoveis.com.br</a></p>
+                        </li>
+                        <li>
+                            <span>📞</span>
+                            <strong>Telefone</strong>
+                            <p><a href="tel:+5551999999999">(51) 99999-9999</a></p>
+                        </li>
+                        <li>
+                            <span>🕒</span>
+                            <strong>Atendimento</strong>
+                            <p>Segunda a sexta, 9h às 18h</p>
+                        </li>
+                        <li>
+                            <span>📍</span>
+                            <strong>Localização</strong>
+                            <p>R. Cel. Genuíno, 358 - Centro Histórico, Porto Alegre - RS, 90010-350</p>
+                        </li>
+                    </ul>
+
+                    <!-- Mapa Interativo em HTML Puro -->
+                    <div>
+                        <h4>Nossa Localização no Mapa</h4>
+                        <iframe 
+                            title="Mapa de localização da NEORVI Móveis na Rua Coronel Genuíno, 358"
+                            src="https://maps.google.com/maps?q=R.+Cel.+Genu%C3%ADno,+358+-+Centro+Hist%C3%B3rico,+Porto+Alegre+-+RS,+90010-350&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+                            width="100%" 
+                            height="300" 
+                            frameborder="0" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Coluna Direita: Envie uma mensagem (Formulário com 8 elementos) -->
+                <div>
+                    <h3>Envie uma mensagem</h3>
+                    <form action="#contato" method="post">
+                        <!-- 1. Nome completo -->
+                        <div>
+                            <label for="contato-nome">Nome completo</label><br>
+                            <input type="text" id="contato-nome" name="nome" placeholder="Digite seu nome completo" required>
+                        </div>
+
+                        <!-- 2. E-mail -->
+                        <div>
+                            <label for="contato-email">E-mail</label><br>
+                            <input type="email" id="contato-email" name="email" placeholder="seuemail@exemplo.com" required>
+                        </div>
+
+                        <!-- 3. Telefone -->
+                        <div>
+                            <label for="contato-telefone">Telefone</label><br>
+                            <input type="tel" id="contato-telefone" name="telefone" placeholder="(51) 99999-9999" required>
+                        </div>
+
+                        <!-- 4. Tipo de Projeto -->
+                        <div>
+                            <label for="contato-ambiente">Ambiente do Projeto</label><br>
+                            <select id="contato-ambiente" name="ambiente">
+                                <option value="outdoor">Área Externa / Piscina / Condomínio</option>
+                                <option value="residencial">Residencial Interno</option>
+                                <option value="corporativo">Corporativo / Escritório</option>
+                            </select>
+                        </div>
+
+                        <!-- 5. Data prevista -->
+                        <div>
+                            <label for="contato-data">Data desejada para atendimento / entrega</label><br>
+                            <input type="date" id="contato-data" name="data">
+                        </div>
+
+                        <!-- 6. Assunto -->
+                        <div>
+                            <label for="contato-assunto">Assunto</label><br>
+                            <input type="text" id="contato-assunto" name="assunto" placeholder="Assunto da mensagem" required>
+                        </div>
+
+                        <!-- 7. Mensagem -->
+                        <div>
+                            <label for="contato-mensagem">Mensagem</label><br>
+                            <textarea id="contato-mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+                        </div>
+
+                        <!-- 8. Checkbox de Catálogo -->
+                        <div>
+                            <input type="checkbox" id="contato-catalogo" name="catalogo" value="sim">
+                            <label for="contato-catalogo">Quero receber o catálogo digital NEORVI Móveis por e-mail.</label>
+                        </div>
+
+                        <div>
+                            <button type="submit">ENVIAR MENSAGEM</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <hr>
+
+    <!-- =================================================================
+         RODAPÉ 
+         ================================================================= -->
+    <footer id="rodape">
+        <div>
+            <h3>RODAPÉ</h3>
+            <p>
+                <a href="#inicio">NEORVI MÓVEIS</a> |
+                <a href="#sobre">Institucional</a> |
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Redes sociais</a> |
+                <a href="#contato">Contato</a>
+            </p>
+            <p><small>&copy; 2026 NEORVI Móveis. Porto Alegre - RS. Todos os direitos reservados.</small></p>
+        </div>
+    </footer>
+
+</body>
+</html>
