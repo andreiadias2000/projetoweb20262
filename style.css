@@ -1,0 +1,161 @@
+/* ==========================================================
+   1. RESET BÁSICO E VARIÁVEIS (Paleta Grão de Café)
+   ========================================================== */
+:root {
+  --cafe-escuro: #4A1E0E;      /* Tom bem fechado e sofisticado */
+  --cafe-principal: #86381D;   /* Cor principal Grão de Café */
+  --cafe-medio: #924D34;
+  --cafe-claro: #AA7461;
+  --cafe-suave: #C39C8E;
+  --cafe-fundo: #F4ECE9;       /* Fundo bege bem suave e aconchegante */
+  --branco: #FFFFFF;
+  --texto-cor: #2C1A14;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--cafe-fundo);
+  color: var(--texto-cor);
+  line-height: 1.6;
+}
+
+/* ==========================================================
+   2. CABEÇALHO E MENU DE NAVEGAÇÃO (Com Flexbox)
+   ========================================================== */
+header {
+  background-color: var(--cafe-escuro);
+  color: var(--branco);
+  padding: 20px 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Usamos Flexbox no container principal do topo para separar a logo e a busca */
+.topo-container, #topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Estilo do Logo / Título da Marca */
+header h1, .logo-titulo {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  color: var(--branco);
+}
+
+/* Caixa de Busca */
+.busca-container, form {
+  display: flex;
+  gap: 8px;
+}
+
+.busca-container input {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  width: 220px;
+  font-size: 0.9rem;
+}
+
+.busca-container button {
+  padding: 8px 16px;
+  background-color: var(--cafe-principal);
+  color: var(--branco);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.busca-container button:hover {
+  background-color: var(--cafe-medio);
+}
+
+/* ==========================================================
+   3. MENU DE NAVEGAÇÃO HORIZONTAL (Flexbox)
+   ========================================================== */
+nav ul, .menu-horizontal {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+nav a, .menu-horizontal a {
+  color: #E7D7D2;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  padding: 5px 0;
+}
+
+nav a:hover, .menu-horizontal a:hover {
+  color: var(--branco);
+  border-bottom: 2px solid var(--cafe-suave);
+}
+
+/* ==========================================================
+   4. CONTEÚDO PRINCIPAL E SEÇÕES
+   ========================================================== */
+main {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  background-color: var(--branco);
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: var(--cafe-principal);
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+/* Botões gerais */
+.btn-acao, button.acao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--cafe-principal);
+  color: var(--branco);
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.btn-acao:hover {
+  background-color: var(--cafe-escuro);
+}
+
+/* ==========================================================
+   5. RODAPÉ
+   ========================================================== */
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: var(--cafe-escuro);
+  color: var(--branco);
+  margin-top: 50px;
+  font-size: 0.9rem;
+}
