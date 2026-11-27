@@ -1,2 +1,0 @@
-instalar boostrep npm install bootstrap 
-
